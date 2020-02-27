@@ -1,0 +1,88 @@
+li{
+    list-style: none;
+    align-items: baseline;
+}
+ul *{
+    padding: 0px;
+}
+.header{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
+    
+}
+
+#logo{
+    margin-left: 167px;
+    width: 268px;
+    height: 33px;
+    padding: 20px 20px;
+}
+#about{
+    color: #00b39b;
+}
+#career:hover {
+    color: #00b39b;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+  
+    
+    
+}
+.nav-menu a{
+
+        color: #ababab;
+        display: block;
+        text-decoration: none;
+        padding: 0 .6em;
+        list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    width: 337px;
+    padding-left: 333px;
+    padding-right: 196px;   
+    
+}
+
+.dropdown{
+    position: relative;
+
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 200px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: flex;
+}
+#a1:hover {
+    color: #00b39b;
+}
+#a2:hover {
+    color: #00b39b;
+}
