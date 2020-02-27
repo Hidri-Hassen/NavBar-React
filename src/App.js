@@ -5,7 +5,7 @@ import Navmenu from "./components/navBar/navmenu.js"
 const label = [
   {title:"About us",link:"#" , id:"about"},
 {title:"Career",link:"#"},
-{title:"Departments",drop:[{drop:"Marketing &amp; PR",link:"#"},{drop:"Customer Success &amp; Sales",link:"#"},{drop:"IT, Product, Design &amp; UX",link:"#"},{drop:"Finance &amp; Administration",link:"#"},{drop:"HR &amp; more",link:"#"}]},
+{title:"Departments",drop:[{drop:"Marketing & PR",link:"#"},{drop:"Customer Success & Sales",link:"#"},{drop:"IT, Product, Design & UX",link:"#"},{drop:"Finance & Administration",link:"#"},{drop:"HR & more",link:"#"}]},
 ]
 
 function App () {
